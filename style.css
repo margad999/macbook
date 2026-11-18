@@ -1,0 +1,378 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "manrope";
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+button {
+  background-color: #f84646;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: 700;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header svg {
+  display: none;
+}
+.hero-conteiner {
+  padding: 35px 122px;
+  width: 100%;
+  height: 80vh;
+  background-image: url(./zurag.png);
+  background-position: center;
+  background-size: cover;
+}
+.hero {
+  width: 650px;
+  margin-top: 135px;
+}
+.hero h2 {
+  font-size: 64px;
+  line-height: 135px;
+}
+.hero p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+}
+.baldan {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 200px;
+}
+.baldan input {
+  width: 502px;
+  height: 85px;
+  padding: 20px 32px;
+  font-size: 16px;
+  padding-right: 200px;
+}
+.baldan button {
+  height: 60px;
+  padding: 13px 37px;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  margin-left: -150px;
+}
+@media (max_widht: 600px) {
+  nav svg {
+    display: block;
+  }
+  nav a {
+    display: none;
+  }
+  header {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .hero-conteiner {
+    padding: 39px 20px;
+    text-align: center;
+  }
+  .hero {
+    width: 100%;
+  }
+  .hero h2 {
+    font-size: 42px;
+  }
+}
+.box2 {
+  padding: 120px 144px 140px 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.box2a {
+  width: 994px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.box2a h2 {
+  width: 428px;
+  height: 56px;
+  font-weight: 800;
+  font-size: 36px;
+  font-family: "manrope";
+}
+.box2a p {
+  width: 852px;
+  height: 109px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "manrope";
+}
+.box2b {
+  width: 1200px;
+  height: 508px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 83px;
+}
+.box2b1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 214px;
+}
+.box2b1a {
+  width: 79px;
+  height: 77px;
+  background-image: url(./zurag2.png);
+}
+.box2b1b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b1b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2bp {
+  height: 84px;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box2b2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 203px;
+}
+.box2b2a {
+  width: 81px;
+  height: 76px;
+  background-image: url(./od.png);
+}
+.box2b2b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b2b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2b2b p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box2b3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 203px;
+}
+.box2b3a {
+  width: 90px;
+  height: 76px;
+  background-image: url(./titem.png);
+}
+.box2b3b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b3b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2b3b p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box2b4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 203px;
+}
+.box2b4a {
+  width: 77px;
+  height: 76px;
+  background-image: url(./chart.png);
+}
+.box2b4b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b4b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2b4b p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box2b5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 203px;
+}
+.box2b5a {
+  width: 83px;
+  height: 78px;
+  background-image: url(./pie-chart.png);
+}
+.box2b5b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b5b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2b5b p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+
+.box2b6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 316px;
+  height: 203px;
+}
+.box2b6a {
+  width: 67px;
+  height: 78px;
+  background-image: url(./figma-logo.png);
+}
+.box2b6b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.box2b6b h3 {
+  font-family: "manrope";
+  font-weight: 800;
+  font-size: 24px;
+}
+.box2b6b p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "manrope";
+  text-align: center;
+}
+.first {
+  background-image: url(./sssa.png);
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.first p {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.first h2 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.second {
+  width: 838px;
+  height: 104px;
+  padding-top: 68px;
+}
+.third {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  gap: 130px;
+}
+.third svg {
+  padding-right: 5px;
+}
+.third p {
+  width: 182px;
+  height: 62px;
+  font-weight: 700px;
+  font-size: 10pxpx;
+}
+.header {
+  width: 1197px;
+  height: 480px;
+}
+.footer {
+  width: 1197px;
+  height: 480px;
+}
